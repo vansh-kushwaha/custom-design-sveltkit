@@ -7,7 +7,7 @@
 <div class="app">
 	<Header />
 
-	<main>
+	<main class="container mx-auto">
 		<slot />
 	</main>
 
@@ -16,5 +16,5 @@
 	</footer>
 </div>
 
-<style>
+<style lang="postcss">
 </style>
